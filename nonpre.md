@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     subgraph SOURCES["1. SOURCES"]
         PC[Linux PC <br/> Streaming / Kodi]
@@ -40,3 +41,4 @@ graph TD
 
     style AVP fill:#ccf,stroke:#333,stroke-width:2px
     style DAC fill:#f9f,stroke:#333
+```    
