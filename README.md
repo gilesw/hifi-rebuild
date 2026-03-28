@@ -9,7 +9,7 @@ kodi permanently directed to hdmi out
 
 
 # diagram
-
+```
 LINUX PC (The Source)
   │
   ├──[USB Cable]──▶ DENAFRIPS DAC ──────┐
@@ -32,6 +32,7 @@ LINUX PC (The Source)
                     ┌────────▼────────┐ ┌────────▼────────┐
                     │ RIBBON TOWERS   │ │ CENTER/SURROUND │
                     └─────────────────┘ └─────────────────┘
+```
 
 # System Blueprint: High-Fidelity Hybrid Home Theater (2026)
 
