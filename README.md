@@ -1,39 +1,3 @@
-
-# 2 channel room correction
-
-CamillaDSP and CamillaFIR on linux
-
-# movies
-
-kodi permanently directed to hdmi out
-
-
-# diagram
-```
-LINUX PC (The Source)
-  │
-  ├──[USB Cable]──▶ DENAFRIPS DAC ──────┐
-  │                                     │ (Analog Music Path)
-  └──[HDMI Cable]─▶ MARANTZ AV 30 ──────┼───────┐
-                    (Front L/R Out)     │       │
-                          │             │       │ (Analog Movie Path)
-                          ▼             ▼       │
-                  ┌───────────────────────┐     │
-                  │ MUSICAL FIDELITY PRE  │     │
-                  │ (The Selector Switch) │     │
-                  └──────────┬────────────┘     │
-                             │                  │
-                             ▼                  ▼
-                    ┌────────────────┐  ┌────────────────┐
-                    │ NORD MONO AMPS │  │ NORD 3-CH AMP  │
-                    │  (Front L/R)   │  │ (C / SL / SR)  │
-                    └────────┬───────┘  └────────┬───────┘
-                             │                   │
-                    ┌────────▼────────┐ ┌────────▼────────┐
-                    │ RIBBON TOWERS   │ │ CENTER/SURROUND │
-                    └─────────────────┘ └─────────────────┘
-```
-
 # System Blueprint: High-Fidelity Hybrid Home Theater (2026)
 
 ## 1. Executive Summary
@@ -100,10 +64,10 @@ All power is managed by the **Marantz AV 30** "Trigger Assignments" to allow sel
 graph TD
     PC[Linux PC] -- USB --> DAC[Denafrips Pontus]
     PC -- HDMI --> AVP[Marantz AV 30]
-    
+
     DAC -- XLR --> MF[MF M6s PRE]
     AVP -- "XLR (Front L/R)" --> MF
-    
+
     MF -- XLR --> Amp1[Nord 3-Ch - Ch 1&2]
     AVP -- "XLR (Center)" --> Amp1
     AVP -- "XLR (Surrounds)" --> Amp2[NCore Monos]
@@ -115,3 +79,16 @@ graph TD
 
     style MF fill:#f96,stroke:#333,stroke-width:2px
     style AVP fill:#ccf,stroke:#333
+```
+
+## 6. Linux machine breakdown
+
+### kodi
+
+movie playing locked to the hdmi output
+
+### music
+
+https://lyrion.org/lms-server-repository/
+
+
