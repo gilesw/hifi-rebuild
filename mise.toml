@@ -1,0 +1,4 @@
+[tools]
+"ruby" = "3.4.8"
+"pipx:waybackpack" = "latest"
+"gem:wayback_machine_downloader" = "latest"

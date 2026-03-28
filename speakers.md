@@ -1,3 +1,19 @@
+### Center Speaker: IPL AVC-PRO (AVC3) Ribbon
+* **Configuration:** 22L Ported Cabinet (22mm MDF).
+* **High-Freq:** Fountek Neo CD3.0 Ribbon (Matches Main Towers).
+* **Mid-Bass:** 2 x 5" Magnesium IPL/5/M/S units.
+* **Impedance:** 5 Ohms (Optimized for High-Current Purifi Amps).
+* **Tuning:** Crossover at 3.5kHz. 
+* **Placement Note:** Designed for 25-degree off-axis linearity, allowing for wide seating positions in the living room.
+
+### Subwoofer: IPL SW6 Mk2 Active
+* **Driver:** 15" Modified IPL15AW20D (Downward Firing).
+* **Amplifier:** 300W SAM 300D Class D.
+* **Cabinet:** 62L / 25mm MDF High-Mass construction.
+* **Extension:** LFE extension to ~10Hz.
+* **Role in System:** Primary bass actuator and Dirac ART support unit.
+
+
 https://www.diyaudio.com/community/threads/achieving-full-range-sound-in-typical-british-living-rooms-ipl-speakers-s2tlk-cd3-0.320239/
 
 
