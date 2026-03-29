@@ -1,64 +1,59 @@
-# System Blueprint: The Transmission Line Purist (v5.0)
+# System Blueprint: The Transmission Line Purist (v8.0)
 
-## 1. Executive Summary
-A fully integrated 5.1 Home Theater and R-2R Music system. This build solves the "Clinical/Heat" issues of the legacy NCore/DIY era by moving to a consolidated Purifi amplification stage and a Reference-grade Marantz "Brain."
+## 1. Project Vision
+A 2026 consolidation project: Replacing high-heat legacy DIY amplification with a high-efficiency Purifi/Marantz core. Optimized for a 37m³ narrow room, prioritizing the "speed" of IPL Ribbon tweeters and the low-end extension of Transmission Line towers.
+
+---
 
 ## 2. Hardware Manifest
 
-### 2.1 Visuals (The "Big Screen")
-* **Projector:** Epson EH-TW5910 (3LCD / Full HD 1080p).
-* **Connectivity:** 48Gbps Active Optical HDMI (Fiber) to ensure handshake stability at 1080p over distance.
-* **Automation:** Set to "Direct Power On" via Triggered AC Relay.
+### 2.1 The "Front Stage" (IPL Heritage)
+* **Main Towers:** IPL S2TLM (Transmission Line).
+    * **Drivers:** 8" Kevlar (IPL/8/K) + Fountek Neo CD3.0 Ribbon.
+    * **Note:** 23Hz extension allows for sub-free 2.0 music listening.
+* **Center:** IPL AVC-PRO (Acoustic Vent Centre).
+    * **Drivers:** 2 x 5" Magnesium + Fountek Neo CD3.0 Ribbon.
 
-### 2.2 The "Front Three" (IPL Heritage)
-* **Main Towers:** IPL S2TLM (8" Kevlar + Fountek CD3.0 Ribbon).
-    * *Note:* Transmission Line design with 23Hz extension; used full-range for music.
-* **Center:** IPL AVC-PRO (5" Magnesium + Fountek CD3.0 Ribbon).
-    * *Note:* Timbre-matched to towers for seamless dialogue pans.
+### 2.2 The "Atmosphere & Speed" (Surrounds & Sub)
+* **Surrounds:** Monitor Audio Silver SFX (Tri-pole).
+    * **Logic:** Side-wall mounted in **DI-POLE** mode to widen the 2.67m room.
+* **Subwoofer:** BK Electronics XXLS400-FF (Front Firing).
+    * **Driver:** 12" Peerless XXLS (Long Throw / High Linear).
+    * **Enclosure:** 50 Litre **Sealed** (Acoustic Suspension).
+    * **Amp:** 400W RMS Discrete Bipolar.
+    * **Role:** Fast, "dry" LFE for cinema; timbre-matched to the speed of the ribbons.
 
-### 2.3 The "Surround Bubble" (Monitor Audio)
-* **Rears:** Monitor Audio Silver SFX (Tri-pole / Angled Baffle).
-    * **Setting:** Set to **DI-POLE** mode for the 2.67m narrow room to create a diffuse, immersive soundstage.
-    * **Placement:** Side-wall mounted, 60cm above ear height.
-
-### 2.4 The "Brains & Muscle" (2026 Core)
+### 2.3 The "Brains & Muscle" (2026 Core)
 * **Processor:** Marantz AV 30 (Reference Pre-amp / Dirac Live ART).
 * **Power Amp:** Nord Three Purifi 1ET6525SA 5-Channel MKII.
-    * **Buffer:** Nord Rev D with Sparkos SS2590 (Front 3) & OPA1612 (Rears).
 * **DAC:** Denafrips Pontus 15th (R-2R Ladder DAC).
 
+### 2.4 Visuals
+* **Projector:** Epson EH-TW5910 (3LCD / 1080p).
+* **Connectivity:** 48Gbps Fiber HDMI.
+
 ---
 
-## 3. Power & Automation Logic (12V Trigger Map)
+## 3. Room Acoustic Calibration (Dirac Live ART)
+* **The Problem:** 35Hz Length Mode + 60Hz stacked Height/Width Modes.
+* **The Solution:** **Active Room Treatment (ART)** logic.
+    * **BK XXLS400 Setting:** High-pass set to 'Out/LFE' to allow Marantz full control.
+    * **Logic:** Dirac ART will use the 5-channel Purifi array to "support" the sub, actively canceling room reflections at 35Hz and 60Hz.
 
-The Marantz AV 30 acts as the "Master Controller."
+---
 
-| Trigger Out | Destination | Music Logic (CD) | Movie Logic (TV) |
+## 4. Automation & Power Logic (12V Trigger Map)
+| Trigger | Destination | Music (2.0) | Cinema (5.1) |
 | :--- | :--- | :--- | :--- |
-| **Trigger 1** | Nord 5-Ch Amp | **ON** | **ON** |
-| **Trigger 2** | Projector Relay | **OFF** | **ON** |
-| **Trigger 3** | [Optional] Subwoofer | **OFF** | **ON** |
+| **Out 1** | Nord 5-Ch Amp | **ON** | **ON** |
+| **Out 2** | Projector Relay | **OFF** | **ON** |
+| **Out 3** | BK XXLS400 Sub | **OFF** | **ON** |
 
 ---
 
-## 4. Signal Chain Optimization
-1. **Music (Stereo):** Linux/CamillaDSP → Denafrips → Marantz (XLR In) → **Pure Direct Mode**.
-   - *Result:* Nord Amp drives IPL Towers full-range. All other speakers/projector remain OFF.
-2. **Movies (5.1):** Source → Marantz (HDMI In) → **Dirac Live ART**.
-   - *Result:* Full 5.1 engagement. Dirac uses the Monitor Audio SFX and IPL Center to actively cancel room modes, tightening the bass from the TL towers.
-
-## 5. Thermal & Efficiency Report
-* **Idle State:** ~25W (Entire system).
-* **Acoustic Note:** The "Curved Wall" section of the room helps break up high-frequency
-
-## 6. Linux machine breakdown
-
-### kodi
-
-movie playing locked to the hdmi output
-
-### music
-
-https://lyrion.org/lms-server-repository/
-
-
+## 5. Resale & Reinvestment Tracker
+| Item for Sale | Est. Value (UK 2026) | Upgrade Target |
+| :--- | :--- | :--- |
+| **2x NCore NC400 Monos** | £900 | Nord Purifi 5-Ch |
+| **IPL SW6 Sub (15")** | £350 | BK XXLS400-FF |
+| **Total Recovery** | **£1250** | |
