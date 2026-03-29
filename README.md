@@ -26,6 +26,9 @@ A 2026 consolidation project: Replacing high-heat legacy DIY amplification with 
 ### 2.3 The "Brains & Muscle" (2026 Core)
 * **Processor:** Marantz AV 30 (Reference Pre-amp / Dirac Live ART).
 * **Power Amp:** Nord Three Purifi 1ET6525SA 5-Channel MKII.
+    * **Custom Buffer Configuration (Nord Rev D):**
+        * **Channels 1-3 (L/C/R):** Sparkos SS2590 Discrete Op-Amps (Class A warmth for Ribbons).
+        * **Channels 4-5 (Rears):** OPA1612 (Ultra-clean, high-efficiency for surrounds).
 * **DAC:** Denafrips Pontus 15th (R-2R Ladder DAC).
 
 ### 2.4 Visuals
