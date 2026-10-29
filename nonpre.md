@@ -9,7 +9,7 @@ This configuration eliminates the separate analog preamplifier in favor of the *
 * **Front Amp:** Nord One NCx500 3-Channel (L/C/R) with Sparkos SS2590 Op-Amps.
 * **Surround Amp:** 2x NCore Mono Blocks (LS/RS).
 * **Subwoofer:** REL HT/1205 (Active).
-* **Display:** Epson EH-TW5910 (1080p).
+* **Display:** Epson EH-LS9000 (4K laser).
 
 ## 3. The "Pure Direct" Signal Path
 For 2-channel music, the Marantz AV 30 operates as a high-end analog preamp:
@@ -32,11 +32,11 @@ In the Marantz Menu (**Setup > General > Trigger Out**):
 2. Set **Trigger 2** to remain **OFF** for the **CD** input.
 3. *Benefit:* When listening to music, your surround amplifiers stay cold and save power.
 
-## 5. "Finicky" Projector Configuration
-To stabilize the Epson EH-TW5910 1080p handshake:
-* **Video Output:** Lock Marantz to **1080p Fixed**.
+## 5. Projector Configuration (Epson EH-LS9000)
+* **Video Output:** Marantz HDMI output set to **Auto** so 4K HDR passes through.
+* **Power Control:** Switch on/off by IP, RS-232 or CEC. Do not cut mains while the laser is running; it needs its shutdown cycle.
 * **HDMI-CEC:** Disable if the system "auto-switches" incorrectly during background music sessions.
-* **Cable:** Use 15m **Active Optical HDMI (AOC)** to ensure consistent 5V handshakes.
+* **Cable:** 15m **Active Optical HDMI (AOC)**, 48Gbps rated, for 4K HDR at full bandwidth.
 
 ## 6. Linux Software Integration
 * **Music:** CamillaDSP applies FIR filters in the digital domain on the PC.

@@ -32,7 +32,10 @@ A 2026 consolidation project: Replacing high-heat legacy DIY amplification with 
 * **DAC:** Denafrips Pontus 15th (R-2R Ladder DAC).
 
 ### 2.4 Visuals
-* **Projector:** Epson EH-TW5910 (3LCD / 1080p).
+* **Projector:** Epson EH-LS9000 (3LCD laser-phosphor / 4K pixel-shift, HDR).
+    * **Throw:** 1.35–2.84 ratio (2.1x zoom); at 4.5m gives ~1.6–3.3m image width.
+    * **Lens Shift:** Powered, V ±96.3% / H ±24%.
+    * **Inputs:** 2x HDMI 2.1 (one eARC).
 * **Connectivity:** 48Gbps Fiber HDMI.
 
 ---
@@ -49,7 +52,7 @@ A 2026 consolidation project: Replacing high-heat legacy DIY amplification with 
 | Trigger | Destination | Music (2.0) | Cinema (5.1) |
 | :--- | :--- | :--- | :--- |
 | **Out 1** | Nord 5-Ch Amp | **ON** | **ON** |
-| **Out 2** | Projector Relay | **OFF** | **ON** |
+| **Out 2** | Projector Power-On | **OFF** | **ON** |
 | **Out 3** | BK XXLS400 Sub | **OFF** | **ON** |
 
 ---

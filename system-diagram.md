@@ -15,7 +15,7 @@ graph TD
 
     Amp1 --> Speakers[Ribbon L/C/R]
     Amp2 --> RearSpeakers[Surrounds]
-    AVP --> Proj[Epson Projector]
+    AVP --> Proj[Epson LS9000]
 
     style MF fill:#f96,stroke:#333,stroke-width:2px
     style AVP fill:#ccf,stroke:#333
